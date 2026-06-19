@@ -135,7 +135,6 @@ export default tseslint.config(
       globals: {
         ...globals.node,
         ...globals.vitest,
-        'd3': 'readonly',
         'expect': 'writable',
         'iD': 'readonly',
         'jsdom': 'readonly',
